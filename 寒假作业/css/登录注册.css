@@ -1,0 +1,169 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.mental .body .right .inner li {
+    list-style: none;
+    color: rgb(141, 133, 133);
+    width: 140px;
+    border-bottom: 1px solid;
+    font-size: 16px;
+    float: left;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.mental .head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: #edf4ed;
+}
+.mental .head .inner {
+    width: 1040px;
+    height: 28px;
+}
+.mental .body {
+    position: relative;
+    height: auto;
+    margin: 100px 258.600px 0px 258.600px;
+}
+.left {
+    position: absolute;
+    left: 1px;
+    height: auto;
+}
+.nei {
+    margin-left: 200px;
+    margin-top: -30px;
+}
+.in {
+    top: 50%;
+    display: inline-block;
+}
+.mental .body .right {
+    position: absolute;
+    border: 1px solid;
+    border-color: rgb(228, 225, 225);
+    top: 25px;
+    right: 70px;
+    height: 380px;
+    width: 340px;
+}
+.body .right .inner {
+    padding: 40px 30px 100px 30px;
+    height: 300px;
+}
+.mental .body .right .inner p{
+    font-size: 13px;
+    color: rgb(165, 160, 160);
+}
+.mental .body .right .inner p a {
+    color: #41ac52;
+}
+.right .exist {
+    height: 20px;
+    margin-bottom: 5px;
+    
+}
+.right .number .lable {
+    display: inline-block;
+    font-size: 12px;
+}
+.mental .body .right .number {
+    height: 30px;
+    margin-bottom: 10px;
+    border: 1px solid;
+    border-color: rgb(207, 202, 202);
+}
+.mental .body .right .number input {
+    margin-top: 8px;
+    font-size: 12px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-color: rgba(241, 239, 239, 0.671);
+    width: 200px;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+.mental .body .right .pw {
+    height: 30px;
+    margin-bottom: 10px;
+    border: 1px solid;
+    border-color: rgb(207, 202, 202);
+}
+.mental .body .right .pw input {
+    border: 0px;
+    font-size: 12px;
+    width: 200px;
+    margin-top: 8px;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+.mental .body .right .pw a {
+    font-size: 12px;
+    color: #41ac52;
+}
+.mental .body .right .submit {
+    background-color: #17992c;
+    height: 36px;
+    text-align: center;
+    justify-content: center;
+    line-height: 36px;
+    margin-bottom: 10px;
+}
+.mental .body .right .submit a {
+    color: aliceblue;
+    font-size: 14px;
+}
+.body .right .not {
+    height: 30px;
+}
+.body .right .not a {
+    float: right;
+    color: #41ac52;
+    font-size: 12px;
+}
+.body .right .line {
+    font-size: 11px;
+    color: rgb(165, 158, 158);
+}
+.body .right .line::before {
+    width: 100px;
+    height: 1px;
+    content: "";
+    display: inline-block;
+    background: rgb(165, 158, 158);
+}
+.body .right .line::after {
+    width: 100px;
+    height: 1px;
+    content: "";
+    display: inline-block;
+    background: rgb(165, 158, 158);
+}
+.mental .body .right .thirdparty ul li {
+    color: white;
+    margin-left: 38px;
+}
+.mental .body .right .thirdparty {
+    margin-top: 10px;
+}
+.mental .body .right .thirdparty ul :first-child {
+    width: 40px;
+}
+.mental .body .right .thirdparty ul .second {
+    width: 40px;
+}
+.mental .body .right .thirdparty ul .third {
+    width: 40px;
+}
+
+

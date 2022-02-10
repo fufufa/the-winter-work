@@ -1,0 +1,118 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.fist {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.first .section1 {
+    position: relative;
+    height: 640px;
+    padding-bottom: 225px;
+}
+.first .section1 .content1 {
+    position: absolute;
+    top: 30px;
+    left: 200px;
+}
+.first .section1 .content2 {
+    position: absolute;
+    align-content: center;
+    top: 64px;
+    right: 450px;
+    height: 110px;
+    width: 120px;
+}
+.first .section1 .content2 .con {
+    text-align: center;
+    font-size: 14px;
+    height: 100px;
+    width: 120px;
+}
+.first .section1 .content2 .con h2 {
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+.first .section2 {
+    text-align: center;
+}
+.first .section2 h1 {
+    color: rgb(125, 153, 99);
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+.first .section2 h4 {
+    color: rgb(187, 187, 187);
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.first .section2 .conten {
+    height: 400px;
+    width: 300px;
+}
+.first .section3 {
+    text-align: center;
+    margin-top: 255px;
+}
+.first .section3 h1 {
+    color: rgb(125, 153, 99);
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+.first .section3 h4 {
+    color: rgb(187, 187, 187);
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.first .section {
+    text-align: center;
+    margin-top: 255px;
+}
+.first .section h1 {
+    color: rgb(125, 153, 99);
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+.first .section h4 {
+    color: rgb(187, 187, 187);
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+.first .section4 {
+    text-align: center;
+    margin-top: 255px;
+}
+.first .section4 .content {
+    height: 400px;
+}
+.first .section4 h1 {
+    color: rgb(125, 153, 99);
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+.first .section4 h4 {
+    color: rgb(187, 187, 187);
+    font-size: 24px;
+    margin-bottom: 70px;
+}
+.first .section4 p {
+    color: rgb(187, 187, 187);
+}
+.sec {
+    position: sticky;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+    background-color: rgb(209, 207, 207);
+    float: right;
+    margin-right: 40px;
+}
+.sec a {
+    text-decoration: none;
+    display: block;
+    line-height: 70px;
+
+}
+
