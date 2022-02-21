@@ -403,7 +403,7 @@
             ul.children[i].children[1].appendChild(atm);
             atm.innerText=data[i].movieName;
             ID = data[i].movieID;
-            atm.href = '../html/xiangqing.html?id=ID';
+            atm.href = '../html/xiangqing.html?id='+ID;
             ul.children[i].children[2].appendChild(span);
             span.innerText = data[i].score.toFixed(1);
             let amg = document.createElement('a');
@@ -412,8 +412,6 @@
             amg.href = '#';
             atm.addEventListener('click',function(){
                 
-                atm.location.href = '../html/xiangqing.html?ID=Name';
-                console.log(id);
             })
             }
         })

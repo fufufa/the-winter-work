@@ -191,7 +191,8 @@
                     </div>
                 </div>
                 <div class="box2">
-                    <h2>尼罗河上的惨案的剧情简介<span>· · · · · ·</span></h2>
+                    <h2 class="dafang">尼罗河上的惨案的剧情简介</h2>
+                    <span>· · · · · ·</span>
                     <div class="report">
                         <span class="didi">
                             美丽的故事开始了
@@ -199,10 +200,10 @@
                     </div>
                 </div>
                 <div class="box3">
-                    <h2>尼罗河上的惨案的人员
-                        <span>· · · · · ·</span>
-                        <a href="#">(全部25)</a>
+                    <h2 class="meili">尼罗河上的惨案的人员     
                     </h2>
+                    <span>· · · · · ·</span>
+                    <a href="#">(全部25)</a>
                     <ul class="photos">
                         <li>
                             <a href="#">
@@ -250,10 +251,10 @@
                 </div>
                 <div class="box4">
                     <div class="duan">
-                        <h2>尼罗河上的惨案的短评
-                            <span>· · · · · ·</span>
-                            <a href="#">(全部2912)</a>
+                        <h2 class="aiguo">尼罗河上的惨案的短评
                         </h2>
+                        <span>· · · · · ·</span>
+                        <a href="#">(全部2912)</a>
                         <div class="lun">
                             <a href="#">我要写短评</a>
                         </div>
@@ -279,10 +280,10 @@
                 </div>
                 <div class="box5">
                     <div class="duan">
-                        <h2>尼罗河上的惨案的影评
-                            <span>· · · · · ·</span>
-                            <a href="#">(全部115条)</a>
+                        <h2 class="chengxin">尼罗河上的惨案的影评
                         </h2>
+                        <span>· · · · · ·</span>
+                        <a href="#">(全部115条)</a>
                         <div class="lun">
                             <a href="#">我要写短评</a>
                         </div>
@@ -311,6 +312,7 @@
                         <h2>讨论区
                             <span>· · · · · ·</span>
                         </h2>
+                        
                         <div class="lun">
                             <a href="#">我要写短评</a>
                         </div>
@@ -355,7 +357,13 @@
         //     ul.appendChild(li);
         //     li.setAttribute('index',i);
         // }
-        fetch('http://120.77.78.73:8000/movie/detail?id=31',{
+        let oi = location.href;
+        let y = oi[45];
+        let t = oi[46];
+        let p = oi[47];
+        console.log(y);
+        console.log(oi);
+        fetch('http://120.77.78.73:8000/movie/detail?id='+y+t+p,{
 
         }).then(res=>res.json())
         .then(data=>{
@@ -370,7 +378,7 @@
             let q = document.querySelector('.meme .q');
             q.innerHTML = data.entertainerList[0].elName;
             let w = document.querySelector('.meme .w');
-            w.innerHTML = data.entertainerList[15].elName + '/' + data.entertainerList[16].elName;
+            w.innerHTML = data.entertainerList[8].elName + '/' + data.entertainerList[9].elName;
             let e = document.querySelector('.meme .e');
             e.innerHTML = data.entertainerList[4].elName + '/' + data.entertainerList[5].elName + '/' +data.entertainerList[6].elName;
             let r = document.querySelector('.meme .r');
@@ -409,6 +417,14 @@
             a5.innerHTML = data.star.one;
             let didi = document.querySelector('.didi');
             didi.innerHTML = data.synopsis;
+            let meili = document.querySelector('.meili');
+            meili.innerHTML = data.name+'剧组人员';
+            let dafang = document.querySelector('.dafang');
+            dafang.innerHTML = data.name + '简介';
+            let aiguo = document.querySelector('.aiguo');
+            aiguo.innerHTML = data.name + '短评';
+            let chengxin = document.querySelector('.chengxin');
+            chengxin.innerHTML = data.name + '影评';
             for(let j=0;j<6;j++){
                 let photo = document.querySelector('.photos');
                 photo.children[j].children[1].innerHTML = data.entertainerList[j].elName;

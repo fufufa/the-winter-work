@@ -216,6 +216,7 @@ a {
     float: right;
 }
 .content .contentleft .box2 h2{
+    display: inline-block;
     font-size: 20px;
     color: #072;
 }
@@ -226,14 +227,15 @@ a {
     margin-bottom: 30px;
 }
 .content .contentleft .box3 h2{
+    display: inline-block;
     margin-bottom: 15px;
     font-size: 20px;
     color: #072;
 }
-.content .contentleft .box3 h2 span {
+.content .contentleft .box3  span {
     font-size: 10px;
 }
-.content .contentleft .box3 h2 a {
+.content .contentleft .box3  a {
     font-size: 12px;
 }
 .content .contentleft .box3 .photos li{
