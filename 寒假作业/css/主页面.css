@@ -10,7 +10,7 @@ a {
 }
 .targent {
     height: 28px;
-    background-color: rgba(103, 188, 220, 0.33);
+    background-color: #545652;
 }
 .targent div ul li {
     float: left;
@@ -30,7 +30,7 @@ a {
 .biaoti {
     position: relative;
     height: 74px;
-    background-color: rgb(196, 195, 192);
+    background-color: #e3ebec;
 }
 .biaoti .i1 {
     position: absolute;
@@ -51,9 +51,11 @@ a {
     position: absolute;
     left: 783px;
     top: 17px;
+    font-size: 13px;
+    line-height: 29px;
     height: 29px;
     width: 29px;
-    background-color: slateblue;
+    background-color: rgb(199, 199, 199);
 }
 .biaoti2 {
     height: 40.400px;
@@ -62,7 +64,7 @@ a {
     border-top-style: solid;
     border-top-color: rgb(138, 121, 121);
     margin-bottom: 40px;
-    background-color: rgb(192, 196, 192);
+    background-color: #e3ebec;
 }
 .biaoti2 ul li {
     float: left;
@@ -113,7 +115,7 @@ a {
 }
 .content .contentleft .box1 .l2 {
     font-size: 12px;
-    margin-left: 360px;
+    margin-left: 330px;
     margin-right: 5px;
 }
 .content .contentleft .box1 .l3 {
@@ -130,10 +132,289 @@ a {
     color: white;
     font-size: 12px;
 }
-.content .contentleft .box1 .demo2 {
-    height: 270px;
-    background-color: hotpink;
+.content .contentleft .box1 .l5 {
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    background-color: rgb(90, 169, 211);
+    color: white;
+    font-size: 12px;
 }
+.content .contentleft .box1 .demo2 {
+    position: relative;
+    overflow: hidden;
+    height: 250px; 
+}
+.context .content .contentleft .box2 .demo1 {
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+}
+.context .content .contentleft .box2 li {
+    float: left;
+    margin-right: 20px;
+    font-size: 12px;
+}
+.context .content .contentleft .box2 .aside {
+    display: inline-block;
+} 
+.context .content .contentleft .box2  a {
+    float: right;
+    font-size: 14px;
+}
+.context .content .contentleft .box2  h2 {
+    display: inline-block;
+    font-size: 16px;
+    color: rgb(56, 45, 45);
+}
+.context .content .contentleft .box2 .demo2 {
+    position: relative;
+    overflow: hidden;
+    margin-top: 10px;
+    width: 675px;
+    height: 440px;
+}
+.context .content .contentleft .box2 .demo2 ul {
+    position: absolute;
+    left: 0px;
+    width: 3375px;
+    height: 440px;
+}
+.context .content .contentleft .box2 .demo2 li {
+    display: flex;
+    height: 440px;
+    flex-wrap: wrap;
+    width: 675px;
+    margin-right: 0px;
+   
+}
+.context .content .contentleft .box2 .demo2 a {
+    text-align: center;
+    margin: 0px 25px 10px 0px;
+    width: 110px;
+    height: 210px;
+}
+.context .content .contentleft .box2 .demo2 .mean {
+    width: 110px;
+    height: 161px;
+    
+    margin-bottom: 10px;
+}
+.context .content .contentleft .box2 .demo3 {
+    width: 675px;
+    height: 30px;
+    background-color: rgb(247, 247, 248);
+}
+.context .content .contentleft .box2 .demo3 .yuanquan {
+    padding-top: 5px;
+    margin-left: 230px;
+    height: 10px;
+    width: 230px;
+}
+.context .content .contentleft .box2 .demo3 .dnf {
+    display: inline-block;
+}
+.context .content .contentleft .box2 .demo3 .le {
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    background-color: white;
+}
+.context .content .contentleft .box2 .demo3 .ri {
+    display: inline-block;
+    margin-left: -10px;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    height: 20px;
+    width: 20px;
+}
+.context .content .contentleft .box2 .demo3 .current {
+    background-color: black;
+}
+.context .content .contentleft .box2 .demo3 li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: white;
+}
+.context .content .contentleft .box3 .demo1 {
+    margin-top: 100px;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+}
+.context .content .contentleft .box3  h2 {
+    display: inline-block;
+    font-size: 16px;
+    color: rgb(56, 45, 45);
+}
+.context .content .contentleft .box3 li {
+    float: left;
+    margin-right: 20px;
+    font-size: 12px;
+}
+.context .content .contentleft .box3 .aside {
+    display: inline-block;
+} 
+.context .content .contentleft .box3  a {
+    float: right;
+    font-size: 14px;
+}
+.context .content .contentleft .box3 .demo2 {
+    position: relative;
+    overflow: hidden;
+    margin-top: 10px;
+    width: 675px;
+    height: 440px;
+}
+.context .content .contentleft .box3 .demo2 ul {
+    position: absolute;
+    left: 0px;
+    width: 3375px;
+    height: 440px;
+}
+.context .content .contentleft .box3 .demo2 li {
+    display: flex;
+    height: 440px;
+    flex-wrap: wrap;
+    width: 675px;
+    margin-right: 0px;
+}
+.context .content .contentleft .box3 .demo2 a {
+    text-align: center;
+    margin: 0px 25px 10px 0px;
+    width: 110px;
+    height: 210px;
+}
+.context .content .contentleft .box3 .demo2 .net {
+    width: 110px;
+    height: 161px;
+    background-color: red;
+    margin-bottom: 10px;
+}
+.context .content .contentleft .box3 .demo3 {
+    width: 675px;
+    height: 30px;
+    background-color: rgb(245, 240, 240);
+}
+.context .content .contentleft .box3 .demo3 .yuan {
+    padding-top: 5px;
+    margin-left: 230px;
+    height: 10px;
+    width: 230px;
+}
+.context .content .contentleft .box3 .demo3 .xnf {
+    display: inline-block;
+}
+.context .content .contentleft .box3 .demo3 .lef {
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    background-color: white;
+}
+.context .content .contentleft .box3 .demo3 .rig {
+    display: inline-block;
+    margin-left: -10px;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    height: 20px;
+    width: 20px;
+}
+.context .content .contentleft .box3 .demo3 .current {
+    background-color: black;
+}
+.context .content .contentleft .box3 .demo3 li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: white;
+}
+.context .content .contentleft .box4 {
+    margin-top: 40px;
+}
+.context .content .contentleft .box4 h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.context .content .contentleft .box4 h2 a {
+    font-size: 12px;
+    margin-left: 10px;
+}
+.context .content .contentleft .box4 li {
+    border-top: 1px solid;
+    height: 130px;
+    border-top-color: rgb(206, 197, 197);
+    padding-top: 20px;
+}
+.context .content .contentleft .box4 .le {
+    float: left;
+    border: 1px solid;
+    width: 68px;
+    height: 90px;
+}
+.context .content .contentleft .box4 .ri h2 a {
+    font-size: 18px;
+    color: rgb(92, 122, 206);
+}
+.context .content .contentleft .box4 .ri .o {
+    margin-left: 80px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.content .box1 .demo2 .produce { 
+    width: 3375px;
+    left: 0px;
+    position: absolute;
+}
+.content .box1 .demo2 .produce li{
+    float: left;
+    margin-right: 15px;
+    width: 120px;
+    height: 250px;
+}
+ .content .box1 .demo2 .produce .fir {
+    background-color: black;
+    margin-bottom: 20px;
+    height: 140px;
+    width: 120px;
+} 
+.content .box1 .demo2 .produce .fir img {
+    width: 100%;
+    height: 100%;
+}
+.content .box1 .demo2 .produce .sec {
+    text-align: center;
+    height: 20px;
+}
+.content .box1 .demo2 .produce .thir {
+    text-align: center;
+    font-size: 12px;
+    height: 20px;
+}
+.content .box1 .demo2 .produce .four {
+    height: 55px;
+}
+.content .box1 .demo2 .produce .four a {
+    line-height: 25px;
+    text-align: center;
+    display: block;
+    background-color: blue;
+    width: 70px;
+    height: 25px;
+    margin-left: 25px;
+    margin-top: 5px;
+    color: white;
+} 
 .content .contentright {
     position: absolute;
     right: 0px;
@@ -252,7 +533,19 @@ a {
     height: 100%;
     width: 100%;
 }
-.context .content .contentright .box6 {
-    
+.footer {
+    position: absolute;
+    padding-top: 6px;
+    font-size: 12px;
+    width: 1040px;
+    top: 2200px;
+    left: 220px;
+    border-top: 1px dashed #ddd;
+}
+.footer .righ {
+    float: right;
+}
+.footer .righ a {
+    color: rgb(127, 213, 228);
 }
 

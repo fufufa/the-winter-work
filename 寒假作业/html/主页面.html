@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>豆瓣电影大全</title>
     <link  href="../css/主页面.css" rel="stylesheet" />
+    <meta name="referrer" content="no-referrer" />
 </head>
 <body>
     <!-- 上标题栏 -->
@@ -42,7 +43,7 @@
             </ul>
             <ul class="login">
                 <li>
-                    <a href="#">登录/注册</a>
+                    <a href="../html/登录注册.html">登录/注册</a>
                 </li>
             </ul>
             <ul class="download">
@@ -55,10 +56,8 @@
     <!-- 中标题栏 -->
     <div class="biaoti">
         <h2 class="i1">豆瓣电影</h2>
-        <input type="text" value="电影，影视剧" class="i2">
-        <div class="i3">
-            <input type="submit" value="搜索">
-        </div>
+        <input type="text" placeholder="电影,电视剧" class="i2">
+        <div class="i3">搜索</div>
     </div> 
     <div class="biaoti2">
         <ul>
@@ -101,18 +100,151 @@
                         <a href="#">全部正在热映></a>
                         <a href="#">即将上映></a>
                         <span class="l2"></span>
-                        <span class="l3">/ 8</span>
+                        <span class="l3">/ 5</span>
                         <span class="l4"><</span>
-                        <span class="l4">></span>
+                        <span class="l5">></span>
                     </div>
-                    <div class="demo2">
+                        <div class="demo2">
+                        <ul class="produce">
+                            <!-- <li>
+                                <div class="fir">                                       
+                                </div>
+                                <div class="sec">
+                                        <a href="">奇迹笨小孩</a>
+                                </div>
+                                <div class="thir">
+                                    <span>※※※※※</span>
+                                    <span>7.4</span>
+                                </div>
+                                <div class="four">
+                                    <div><a href="">选座购票</a></div>
+                                </div>
+                            </li> -->
+                       </ul>
                     </div>
                 </div>
                 <div class="box2">
+                    <div class="demo1">
+                        <h2>最近热门电影</h2>
+                        <div class="aside">
+                            <ul>
+                                <li>
+                                    <a href="javascript:;"onclick="hot()">热门</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;"onclick="latest()">最新</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;"onclick=" highScore()">豆瓣高分</a>
+                                </li>
+                                <li>
+                                   <a href="javascript:;"onclick="littleKnown()">冷门佳片</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;"onclick="chinese()">华语</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;"onclick="western()">欧美</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;"onclick="korean()">韩国</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;"onclick="japanese()">日本</a>
+                                </li>    
+                            </ul>
+                        </div>
+                        <a href="#">更多></a>
+                    </div>
+                    <div class="demo2">
+                        <ul class="aaa"> 
+                           
+                        </ul>
+                    </div>
+                    <div class="demo3">
+                        <div class="yuanquan"> 
+                            <div class="le"> < </div>
+                            <ul class="dnf">                               
+                            </ul>
+                            <div class="ri"> > </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="box3">
+                    <div class="demo1">
+                        <h2>最近热门电视剧</h2>
+                        <div class="aside">
+                            <ul>
+                                <li>
+                                    <a href="javascript:;">热门</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;"onclick="ooc()">国产剧</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;"onclick="js_method()">综艺</a>
+                                </li>
+                                <li>
+                                   <a href="javascript:;"onclick="omc()">美剧</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;"onclick="otg()">日剧</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;"onclick="ott()">韩剧</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;"onclick="animat()">日本动画</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;"onclick="an()">纪录片</a>
+                                </li>    
+                            </ul>
+                        </div>
+                        <a href="#">更多></a>
+                    </div>
+                    <div class="demo2">
+                        <ul class="bbb">
+                        </ul>
+                    </div>
+                    <div class="demo3">
+                        <div class="yuan">
+                            <div class="lef"> < </div>
+                            <ul class="xnf"></ul>
+                            <div class="rig"> > </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box4">
+                    <div class="head">
+                        <h2>最受欢迎的影评
+                            <a href="#">更多热门影评>></a>
+                            <a href="#">新片影评>></a>
+                        </h2>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="le"></div>
+                            <div class="ri">
+                                <h2>
+                                    <a href="#">中国大师回忆索马里内战撤离往事 (ZT)</a>
+                                </h2>
+                                <div class="o">
+                                    <a href="">来电和断电</a>
+                                    <span>评论</span>
+                                    <a href="#">《摩加迪沙》</a>
+                                </div>
+                                <div class="o">
+                                    2个长期
+                                    <a href="#">(全文)</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li></li>
+                    </ul>
                 </div>
             </div>
+
             <div class="contentright"> 
                 <div class="box1">
                     <a href="#">豆瓣电影评分八问</a>
@@ -211,11 +343,576 @@
                     </ul>
                     <ul></ul>
                 </div>
-                <div class="box6">
-
-                </div>
-            </div>
+             </div>
+             
         </div>
-    </div>     
+        <div class="footer">
+            <span> © 2005－2022 douban.com, all rights reserved 北京豆网科技有限公司</span>
+            <span class="righ">
+                <a href="#">关于豆瓣 ·</a>
+                <a href="#">在豆瓣工作 ·</a>
+                <a href="#">联系我们 · </a>
+                <a href="#">法律声明 ·</a>
+                <a href="#">帮助中心 ·</a>
+                <a href="#">移动中心 ·</a>
+                <a href="#">豆瓣广告</a>
+            </span>
+        </div>
+    </div> 
+    <script>
+        //box1
+        let ID = 0;
+        let ul = document.querySelector('.produce');
+        let l4 = document.querySelector('.l4');
+        let l5 = document.querySelector('.l5');
+        let l2 = document.querySelector('.l2');
+
+         fetch('http://120.77.78.73:8000/movie/hit',{
+            method:'GET',
+            headers:{
+                accept:'application/json'
+            }
+        })
+        .then(res=>res.json())
+        .then(data=>{
+            //console.log(data);
+            // for(let i=0;i<data.length;i++){
+            //     img[i]=data[i].coverURL;
+            //     text[i]=data[i].movieName;
+            // }
+            for(let i = 0 ; i < 25 ; i++){
+             let li = document.createElement('li');
+             ul.appendChild(li);
+             li.setAttribute('index',i);
+            //   ul.children[i].style.left = (i+1)*135+'px';
+            for(let j = 0 ; j < 4 ; j++){
+                let div = document.createElement('div');
+                ul.children[i].appendChild(div);
+                div.setAttribute('index',i);
+
+            }
+            ul.children[i].children[0].setAttribute('class','fir');
+            ul.children[i].children[1].setAttribute('class','sec');
+            ul.children[i].children[2].setAttribute('class','thir');
+            ul.children[i].children[3].setAttribute('class','four');
+            let png = document.createElement('img');
+            let atm = document.createElement('a');
+            let span = document.createElement('span');
+            ul.children[i].children[0].appendChild(png);
+            png.src = data[i].coverURL;
+            ul.children[i].children[1].appendChild(atm);
+            atm.innerText=data[i].movieName;
+            ID = data[i].movieID;
+            atm.href = '../html/xiangqing.html?id=ID';
+            ul.children[i].children[2].appendChild(span);
+            span.innerText = data[i].score.toFixed(1);
+            let amg = document.createElement('a');
+            ul.children[i].children[3].appendChild(amg);
+            amg.innerText= '选购座位';
+            amg.href = '#';
+            atm.addEventListener('click',function(){
+                
+                atm.location.href = '../html/xiangqing.html?ID=Name';
+                console.log(id);
+            })
+            }
+        })
+       // console.log(img);
+        //console.log(text);
+        //console.log(acm);
+       
+        let num = 0 ;
+        //左
+        l4.addEventListener('click',()=>{
+            
+            if(num <= 0) {
+                if(num == 0){ 
+                    ul.style.left = -2025 + 'px';
+                }
+                num--;
+                if(num != 0){
+                    if(4+num < 0){
+                         num = 0;
+                    }else{
+                        left(4+num);
+                    }
+                }
+                
+            }
+            else if(num > 0){
+                num--;
+                    left(num);
+                }
+            console.log(num);
+        });
+        //右
+        l5.addEventListener('click',()=>{
+            if(num == 4) {
+                num = 0;
+                ul.style.left = 0 + 'px';
+            }else{
+                num++;
+            }
+            right(num);
+            console.log(num);
+            });
+            
+        function rr(){
+            if(num == 4) {
+                num = 0;
+                ul.style.left = 0 + 'px';
+            }else{
+                num++;
+            }
+            right(num);
+        }
+        function left(mm){
+            let timer = setInterval(() => {
+                if(ul.offsetLeft >= -mm*675){
+                    clearInterval(timer);
+                }else{
+                    ul.style.left = ul.offsetLeft + 75 + 'px';
+                }
+            }, 80);
+            l2.innerText= num+1;
+            //ul.style.left = -mm*675 +'px';    
+            console.log(num);
+        }
+        function right(xx){
+            let timer = setInterval(() => {
+                if(ul.offsetLeft <= -xx*675){
+                    clearInterval(timer);
+                }else{
+                    ul.style.left = ul.offsetLeft + -75 + 'px';
+                }
+            }, 80);
+            l2.innerText= num+1;
+        }
+       l2.innerText = 1;
+        //setInterval(rr,5000);
+        //box2
+        let le = document.querySelector('.le');
+        let ri = document.querySelector('.ri');
+        let dnf = document.querySelector('.dnf')
+        fetch('http://120.77.78.73:8000/movie/hot?type=hot',{})
+                .then(res=>res.json())
+            .then(data=>{
+                console.log(data.json);
+                for(let i = 0;i<5;i++){
+                    for(let j=0;j<10;j++){
+                        let ne = aaa.children[i].children[j].querySelector('.mean')
+                        let nee = aaa.children[i].children[j].querySelector('p')
+                        ne.src = data.json[i*10+j].coverURL;
+                        nee.innerText = data.json[i*10+j].movieName;
+
+                    }
+                }
+             })
+        function hot() {
+            fetch('http://120.77.78.73:8000/movie/hot?type=hot',{})
+                .then(res=>res.json())
+            .then(data=>{
+                console.log(data.json);
+                for(let i = 0;i<5;i++){
+                    for(let j=0;j<10;j++){
+                        let ne = aaa.children[i].children[j].querySelector('.mean')
+                        let nee = aaa.children[i].children[j].querySelector('p')
+                        ne.src = data.json[i*10+j].coverURL;
+                        nee.innerText = data.json[i*10+j].movieName;
+                    }
+                }
+             })
+        }
+        function latest() {
+            fetch('http://120.77.78.73:8000/movie/hot?type=latest',{})
+                .then(res=>res.json())
+            .then(data=>{
+                console.log(data.json);
+                for(let i = 0;i<5;i++){
+                    for(let j=0;j<10;j++){
+                        let ne = aaa.children[i].children[j].querySelector('.mean')
+                        let nee = aaa.children[i].children[j].querySelector('p')
+                        ne.src = data.json[i*10+j].coverURL;
+                        nee.innerText = data.json[i*10+j].movieName;
+                    }
+                }
+             })
+        }
+        function highScore() {
+            fetch('http://120.77.78.73:8000/movie/hot?type=highScore',{})
+                .then(res=>res.json())
+            .then(data=>{
+                console.log(data.json);
+                for(let i = 0;i<5;i++){
+                    for(let j=0;j<10;j++){
+                        let ne = aaa.children[i].children[j].querySelector('.mean')
+                        let nee = aaa.children[i].children[j].querySelector('p')
+                        ne.src = data.json[i*10+j].coverURL;
+                        nee.innerText = data.json[i*10+j].movieName;
+                    }
+                }
+             })
+        }
+        function littleKnown() {
+            fetch('http://120.77.78.73:8000/movie/hot?type=littleKnown',{})
+                .then(res=>res.json())
+            .then(data=>{
+                console.log(data.json);
+                for(let i = 0;i<5;i++){
+                    for(let j=0;j<10;j++){
+                        let ne = aaa.children[i].children[j].querySelector('.mean')
+                        let nee = aaa.children[i].children[j].querySelector('p')
+                        ne.src = data.json[i*10+j].coverURL;
+                        nee.innerText = data.json[i*10+j].movieName;
+                    }
+                }
+             })
+        }
+        function chinese() {
+            fetch('http://120.77.78.73:8000/movie/hot?type=chinese',{})
+                .then(res=>res.json())
+            .then(data=>{
+                console.log(data.json);
+                for(let i = 0;i<5;i++){
+                    for(let j=0;j<10;j++){
+                        let ne = aaa.children[i].children[j].querySelector('.mean')
+                        let nee = aaa.children[i].children[j].querySelector('p')
+                        ne.src = data.json[i*10+j].coverURL;
+                        nee.innerText = data.json[i*10+j].movieName;
+                    }
+                }
+             })
+        }
+        function western() {
+            fetch('http://120.77.78.73:8000/movie/hot?type=western',{})
+                .then(res=>res.json())
+            .then(data=>{
+                console.log(data.json);
+                for(let i = 0;i<5;i++){
+                    for(let j=0;j<10;j++){
+                        let ne = aaa.children[i].children[j].querySelector('.mean')
+                        let nee = aaa.children[i].children[j].querySelector('p')
+                        ne.src = data.json[i*10+j].coverURL;
+                        nee.innerText = data.json[i*10+j].movieName;
+                    }
+                }
+             })
+        }
+        function korean() {
+            fetch('http://120.77.78.73:8000/movie/hot?type=korean',{})
+                .then(res=>res.json())
+            .then(data=>{
+                console.log(data.json);
+                for(let i = 0;i<5;i++){
+                    for(let j=0;j<10;j++){
+                        let ne = aaa.children[i].children[j].querySelector('.mean')
+                        let nee = aaa.children[i].children[j].querySelector('p')
+                        ne.src = data.json[i*10+j].coverURL;
+                        nee.innerText = data.json[i*10+j].movieName;
+                    }
+                }
+             })
+        }
+        function japanese() {
+            fetch('http://120.77.78.73:8000/movie/hot?type=japanese',{})
+                .then(res=>res.json())
+            .then(data=>{
+                console.log(data.json);
+                for(let i = 0;i<5;i++){
+                    for(let j=0;j<10;j++){
+                        let ne = aaa.children[i].children[j].querySelector('.mean')
+                        let nee = aaa.children[i].children[j].querySelector('p')
+                        ne.src = data.json[i*10+j].coverURL;
+                        nee.innerText = data.json[i*10+j].movieName;
+                    }
+                }
+             })
+        }
+        function animate(obj,target){
+            clearInterval(obj.timer);
+            obj.timer = setInterval(function(){
+                let step = (target - obj.offsetLeft)/5;
+                if(obj.offsetLeft == target){
+                    clearInterval(obj.timer);
+                }
+                obj.style.left = obj.offsetLeft + step + 'px';
+            },50);
+        }
+        const demoa = document.querySelector('.context .content .contentleft .box2 .demo2');
+        let aaa = document.querySelector('.aaa');
+        
+        for(let i = 0; i < 5;i++){
+            let li = document.createElement('li');
+            aaa.appendChild(li);
+            li.setAttribute('index',i);
+            for(let j = 0;j < 10;j++){
+                let a = document.createElement('a')
+                aaa.children[i].appendChild(a);
+                a.href = '#';
+                a.setAttribute('index',j);
+                let divv = document.createElement('img');
+                let pp = document.createElement('p');
+                a.appendChild(divv);
+                a.appendChild(pp);
+                divv.classList = 'mean';
+            }
+
+        }
+
+        for(let i = 0;i < 5;i++){
+            const lii = document.createElement('li');
+            dnf.appendChild(lii);
+            lii.setAttribute('index',i);
+            lii.addEventListener('click',function(){
+                for(let i = 0;i < dnf.children.length;i++){
+                    dnf.children[i].className = '';
+                }
+                this.className = 'current';
+                let index = this.getAttribute('index');  
+                let demoaWidth = demoa.offsetWidth;
+                // console.log(index);
+                // console.log(demoaWidth);
+                animate(aaa,-index * demoaWidth);
+            })
+            //let index = this.getAttribute('index');
+            //console.log(index);
+            //animate(aa,)    
+        }
+        dnf.children[0].className = 'current';
+
+        le.addEventListener('click',function(){
+            let liii = dnf.querySelector('.current');
+            let indexx = liii.getAttribute('index');
+            liii.className = '';
+            if(indexx == 0){
+                aaa.style.left = -2700 + 'px';
+                indexx = 4;
+                dnf.children[indexx].className = 'current';
+            }else{
+                animate(aaa,-(indexx-1)*675);
+                dnf.children[indexx-1].className = 'current';
+            }
+            console.log(indexx);
+        })
+        ri.addEventListener('click',function(){
+            let liiii = dnf.querySelector('.current');
+            let inde = liiii.getAttribute('index');
+            liiii.className = '';
+            let o = inde;
+            console.log(inde);
+            if(o == 4){
+                aaa.style.left = 0 + 'px';
+                o = 0;
+                dnf.children[o].className = 'current';
+            }else{
+                animate(aaa,-(o+1)*675);
+                console.log(o);
+                o = o+ 1;
+                dnf.children[o].className = 'current';
+            }              
+        })
+        //box3
+        let xnf = document.querySelector('.xnf');
+        let bbb = document.querySelector('.bbb');
+        const demob = document.querySelector('.context .content .contentleft .box3 .demo2');
+        fetch('http://120.77.78.73:8000/teleplay/hot?type=2',{})
+                .then(res=>res.json())
+            .then(data=>{
+                console.log(data.json);
+                for(let i = 0;i<3;i++){
+                    for(let j=0;j<10;j++){
+                        let ne = bbb.children[i].children[j].querySelector('.net')
+                        let nee = bbb.children[i].children[j].querySelector('p')
+                        ne.src = data.json[i*10+j].coverURL;
+                        nee.innerText = data.json[i*10+j].name;
+                    }
+                }
+             })
+        function js_method(){
+                    fetch('http://120.77.78.73:8000/variety/hot',{
+                    method: 'GET',
+                    headers: {
+                    accept: 'application/json' 
+                }
+            })
+            .then(res=>res.json())
+            .then(data=>{
+                console.log(data.json);
+                for(let i = 0;i<3;i++){
+                    for(let j=0;j<10;j++){
+                        let ne = bbb.children[i].children[j].querySelector('.net')
+                        let nee = bbb.children[i].children[j].querySelector('p')
+                        ne.src = data.json[i*10+j].coverURL;
+                        nee.innerText = data.json[i*10+j].name;
+                    }
+                }
+            })
+        }
+        function ooc(){
+            fetch('http://120.77.78.73:8000/teleplay/hot?type=1',{})
+                .then(res=>res.json())
+            .then(data=>{
+                console.log(data.json);
+                for(let i = 0;i<3;i++){
+                    for(let j=0;j<10;j++){
+                        let ne = bbb.children[i].children[j].querySelector('.net')
+                        let nee = bbb.children[i].children[j].querySelector('p')
+                        ne.src = data.json[i*10+j].coverURL;
+                        nee.innerText = data.json[i*10+j].name;
+                    }
+                }
+             })
+        }
+        function omc(){
+            fetch('http://120.77.78.73:8000/teleplay/hot?type=2',{})
+                .then(res=>res.json())
+            .then(data=>{
+                console.log(data.json);
+                for(let i = 0;i<3;i++){
+                    for(let j=0;j<10;j++){
+                        let ne = bbb.children[i].children[j].querySelector('.net')
+                        let nee = bbb.children[i].children[j].querySelector('p')
+                        ne.src = data.json[i*10+j].coverURL;
+                        nee.innerText = data.json[i*10+j].name;
+                    }
+                }
+             })
+        }
+        function otg(){
+            fetch('http://120.77.78.73:8000/teleplay/hot?type=3',{})
+                .then(res=>res.json())
+            .then(data=>{
+                console.log(data.json);
+                for(let i = 0;i<3;i++){
+                    for(let j=0;j<10;j++){
+                        let ne = bbb.children[i].children[j].querySelector('.net')
+                        let nee = bbb.children[i].children[j].querySelector('p')
+                        ne.src = data.json[i*10+j].coverURL;
+                        nee.innerText = data.json[i*10+j].name;
+                    }
+                }
+             })
+        }
+        function ott(){
+            fetch('http://120.77.78.73:8000/teleplay/hot?type=4',{})
+                .then(res=>res.json())
+            .then(data=>{
+                console.log(data.json);
+                for(let i = 0;i<3;i++){
+                    for(let j=0;j<10;j++){
+                        let ne = bbb.children[i].children[j].querySelector('.net')
+                        let nee = bbb.children[i].children[j].querySelector('p')
+                        ne.src = data.json[i*10+j].coverURL;
+                        nee.innerText = data.json[i*10+j].name;
+                    }
+                }
+             })
+        }
+        function animat(){
+            fetch('http://120.77.78.73:8000/animation/hot',{})
+                .then(res=>res.json())
+            .then(data=>{
+                console.log(data.json);
+                for(let i = 0;i<3;i++){
+                    for(let j=0;j<10;j++){
+                        let ne = bbb.children[i].children[j].querySelector('.net')
+                        let nee = bbb.children[i].children[j].querySelector('p')
+                        ne.src = data.json[i*10+j].coverURL;
+                        nee.innerText = data.json[i*10+j].name;
+                    }
+                }
+             })
+        }
+        function an(){
+            fetch('http://120.77.78.73:8000/documentary/hot',{})
+                .then(res=>res.json())
+            .then(data=>{
+                console.log(data.json);
+                for(let i = 0;i<3;i++){
+                    for(let j=0;j<10;j++){
+                        let ne = bbb.children[i].children[j].querySelector('.net')
+                        let nee = bbb.children[i].children[j].querySelector('p')
+                        ne.src = data.json[i*10+j].coverURL;
+                        nee.innerText = data.json[i*10+j].name;
+                    }
+                }
+             })
+        }
+        for(let i = 0; i < 5;i++){
+            let li = document.createElement('li');
+            bbb.appendChild(li);
+            li.setAttribute('index',i);
+            for(let j = 0;j < 10;j++){
+                let a = document.createElement('a')
+                bbb.children[i].appendChild(a);
+                a.href = "#";
+                a.setAttribute('index',j);
+                let divv = document.createElement('img');
+                let pp = document.createElement('p');
+                a.appendChild(divv);
+                a.appendChild(pp);
+                divv.classList = 'net';
+                
+        }
+            }
+        
+        for(let i = 0;i < 5;i++){
+            const lii = document.createElement('li');
+            xnf.appendChild(lii);
+            lii.setAttribute('index',i);
+            lii.addEventListener('click',function(){
+                for(let i = 0;i < dnf.children.length;i++){
+                    xnf.children[i].className = '';
+                }
+                this.className = 'current';
+                let index = this.getAttribute('index');  
+                let demobWidth = demob.offsetWidth;
+                // console.log(index);
+                // console.log(demoaWidth);
+                animate(bbb,-index * demobWidth);
+            })   
+        }
+        xnf.children[0].className = 'current';
+
+        let lef = document.querySelector('.lef');
+        let rig = document.querySelector('.rig');
+        lef.addEventListener('click',function(){
+            let liii = xnf.querySelector('.current');
+            let indexx = liii.getAttribute('index');
+            liii.className = '';
+            // let pp = indexx;
+            if(indexx == 0){
+                bbb.style.left = -2700 + 'px';
+                xnf.children[4].className = 'current';
+            }
+            else{
+                animate(bbb,-(indexx-1)*675);
+                xnf.children[indexx-1].className = 'current';
+            }
+            console.log(indexx);
+        })
+        rig.addEventListener('click',function(){
+            let liiii = dnf.querySelector('.current');
+            let inde = liiii.getAttribute('index');
+            liiii.className = '';
+            console.log(inde);
+            if(inde == 4){
+                bbb.style.left = 0 + 'px';
+                xnf.children[0].className = 'current';
+            }else{
+                animate(aaa,-(inde+1)*675);
+                xnf.children[inde+1].className = 'current';
+            }              
+        })
+        //box4
+        
+        for(let i = 0;i < 10 ;i++){
+            let mer = document.querySelector('wanwu');
+            let li = document.createElement('li');
+            //mer.appendChild(li);
+        }
+       
+        
+    </script>    
 </body>
 </html>

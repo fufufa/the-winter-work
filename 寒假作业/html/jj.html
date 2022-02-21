@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+        .we {
+            position: relative;
+            width: 100px;
+            height: 100px;
+        }
+        ul {
+            position: absolute;
+            background-color: pink;
+            
+            width: 1000px;
+            height: 100px;
+        }
+        .l {
+            width: 20px;
+            height: 20px;
+            background-color: black;
+        }
+        .r {
+            width: 20px;
+            height: 20px;
+            background-color: red;
+            margin: 100px;
+        }
+        img {
+            height: 200px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="we"><ul class="produce"></ul></div>
+    <img src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2868255579.jpg" alt="">
+    <div class="l" id="l"></div>
+    <div class="r"></div>
+</body>
+<script>
+    let ul = document.querySelector('ul');
+    let l = document.getElementById('l');
+    let r = document.querySelector('.r');
+    
+    l.addEventListener('click',ge());
+    async function ge(){
+        let response = await fetch('http://120.77.78.73:8000/hitMovies',{
+            headers :{
+                accept:'application/json'
+            }
+        })
+        let data = await response.json();
+        console.log(data);
+    }
+
+
+
+    r.addEventListener('click',()=>{
+        ul.style.left = 100 + 'px';
+    })
+</script>
+</html>

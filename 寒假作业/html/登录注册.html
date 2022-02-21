@@ -30,35 +30,73 @@
             </div>
             <div class="right">
                 <div class="inner">
-                    <ul class="star">
-                        <li class="now">短信登录/注册</li>
-                        <li class="another">密码登录</li>
-                    </ul>
-                    <ul class="change"></ul>
-                    <div class="read">
-                        <p>请仔细阅读<a href="">豆瓣使用协议、豆瓣个人信息保护政策</a></p>
-                    </div>
-                    <div class="exist"></div>
-                    <div class="number">
-                        <div class="lable">
-                            +86
+                    <div class="interrupt"></div>
+                    <div class="exchange">
+                        <ul>
+                            <li class="er">二维码登录</li>
+                        </ul>
+                        <div class="erweima">
+                            <img src="../寒假作业图片.img/derweima.png" alt="" width="100%">
                         </div>
-                        <input type="text" placeholder="手机号">
+                        <div class="otherway">
+                            <div class="left">
+                                <img src="../寒假作业图片.img/scan.png" alt="" width="100%">
+                            </div>
+                            <div class="r">
+                                <p>打开<a href="#">豆瓣App</a>扫一扫登录</p>
+                            </div>
+                        </div>
+                        <div class="fro">
+                            <a href="#">短信验证登录</a>
+                        </div>
                     </div>
-                    <div class="pw">
-                        <input type="text" placeholder="验证码">
-                        <a href="#">获取验证码</a>
-                    </div>
-                    <div class="submit">
+                    <div class="disappear">
+                        <ul class="star">
+                            <li class="now">短信登录/注册</li>
+                            <li class="another">密码登录</li>
+                        </ul>
+                        <div class="disappear1">
+                            <div class="read">
+                            <p>请仔细阅读<a href="">豆瓣使用协议、豆瓣个人信息保护政策</a></p>
+                             </div>
+                             <div class="exist"></div>
+                              <div class="number">
+                             <div class="lable">
+                            +86
+                             </div>
+                              <input class="qq" type="text" placeholder="手机号">
+                             </div>
+                              <div class="pw">
+                             <input class="ww" type="text" placeholder="验证码">
+                            <a href="#">获取验证码</a>
+                            </div>
+                            <div class="submit">
                         <a href="#">登录豆瓣</a>
-                    </div>
-                    <div class="not">
+                            </div>
+                            <div class="not">
                         <a href="#">收不到验证码</a>
-                    </div>
-                    <div class="line">
+                            </div>
+                            </div>
+                        <div class="disappear2">
+                         <div class="mit-number">
+                              <input class="iii" type="text" placeholder="手机号/邮箱" style="width: 275px; height: 30px;">                        
+                        </div>
+                        <div class="mit">
+                             <input class="ooo" type="password">
+                             <a href="#">找回密码</a>
+                        </div>
+                        <div class="submit">
+                            <a href="#">登录豆瓣</a>
+                        </div>
+                        <div class="wai">
+                            <a href="#">海外手机登录</a>
+                        </div>
+                        </div>
+                            <div class="guding">
+                        <div class="line">
                         第三方登录
-                    </div>
-                    <div class="thirdparty">
+                        </div>
+                        <div class="thirdparty">
                         <ul>
                             <li>
                                 <a href="#" title="用微信登录">
@@ -76,10 +114,92 @@
                                 </a>
                             </li>
                         </ul>
-                    </div>
-                </div>   
+                        </div>
+                            </div>
+                        </div>
+                    </div>   
             </div>
         </div>
     </div>
+    <script>
+        let li1 = document.querySelector('.now');
+        let li2 = document.querySelector('.another');
+        let disappear = document.querySelector('.disappear');
+        let dis1 = document.querySelector('.disappear1');
+        let dis2 = document.querySelector('.disappear2');
+        let dis3 = document.querySelector('.exchange');
+        let bian = document.querySelector('.interrupt');
+        let flag = true;
+        let qq = document.querySelector('.qq');
+        let ww = document.querySelector('.ww');
+
+        li1.addEventListener('click',function(){
+            dis1.style.display = 'block';
+            dis3.style.display = 'none';
+            dis2.style.display = 'none';
+            disappear.style.display = 'block';
+            li2.style.color = 'rgb(141, 133, 133)';
+            li1.style.color = 'black';
+        })
+        li2.addEventListener('click',function(){
+            dis2.style.display = 'block';
+            dis1.style.display = 'none';
+            disappear.style.display = 'block';
+            li1.style.color = 'rgb(141, 133, 133)';
+            li2.style.color = 'black';
+        })
+       bian.addEventListener('click',()=>{
+           disappear.style.display = flag ? 'none' : 'block';
+           dis3.style.display = flag ? 'block' : 'none';
+           bian.style.backgroundColor = flag ? 'black' : 'pink' ;
+           flag = !flag;
+       })
+       let mitnumber = document.querySelector('.mit-number')
+       let submit = document.querySelector('.submit');
+
+        submit.addEventListener('click',function(){
+            fetch('http://120.77.78.73:8000/users/login',{
+            method:'post',
+            headers:{
+               "Content-Type":"application/json"
+            },
+            body: json.stringfy({
+                username: '123',
+                password: '123'
+            })
+        })
+        .then((res)=>{
+            res.json()
+            console.log(res);
+        })    
+        .then(data=>{
+            console.log(data);
+        })
+        .catch((error)=>{
+            console.error(error);
+        })
+    })
+    let iii = document.querySelector('.iii');
+    let ooo = document.querySelector('.ooo');
+    submit.addEventListener('click',function(){
+            fetch('http://120.77.78.73:8000/users/login',{
+            method:'post',
+            body:JSON.stringify({
+                username: 'jiangling',
+                password: '12345678'
+            }),
+            headers:{
+               "Content-Type":"application/json"
+            }
+        })
+        .then(res=>{
+            res.json();
+            console.log(res);
+        })
+        .then(data=>{
+            console.log(data);
+        });
+    })
+    </script>
 </body>
 </html>

@@ -1,0 +1,407 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.targent {
+    height: 28px;
+    background-color: rgba(103, 188, 220, 0.33);
+}
+.targent div ul li {
+    float: left;
+    padding-left: 20px;
+}
+.targent div ul li a {
+    font-size: 12px;
+    color: rgb(11, 12, 12);
+}
+.targent .download li {
+    float: right;
+}
+.targent .login li {
+    float: right;
+    margin-right: 20px;
+}
+.biaoti {
+    position: relative;
+    height: 74px;
+    background-color: rgb(196, 195, 192);
+}
+.biaoti .i1 {
+    position: absolute;
+    left: 225px;
+    top: 15px;
+    color: rgb(18, 72, 94);
+}
+.biaoti .i2 {
+    position: absolute;
+    display: block;
+    left: 380px;
+    top: 17px;
+    width: 400px;
+    height: 25px;
+
+}
+.biaoti .i3 {
+    position: absolute;
+    left: 783px;
+    top: 17px;
+    height: 40px;
+    width: 29px;
+    background-color: rgb(199, 199, 199);
+}
+.biaoti .i3 button {
+    width: 30px;
+    height: 30px;
+}
+.biaoti2 {
+    height: 40.400px;
+    width: 100%;
+    border-top: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(138, 121, 121);
+    margin-bottom: 40px;
+    background-color: rgb(192, 196, 192);
+}
+.biaoti2 ul li {
+    float: left;
+    color: blue;
+    font-size: 13px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.biaoti2 ul .p1 {
+    margin-left:  225px;
+}
+.context {
+    position: relative;
+    overflow: visible;
+    width: 100%;
+    height: auto;
+}
+.context .content {
+    position: absolute;
+    left: 225px;
+    width: 1040px;
+}
+.context .content .contentleft {
+    position: absolute;
+    padding-right: 40px;
+    width: 675px;
+    height: 30px;
+}
+.context .content h1 {
+    font-size: 24px;
+}
+.context .content .xme {
+    font-size: 20px;
+    color: rgb(172, 164, 164);
+}
+.context .content .contentright {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    height: 30px;
+    background-color: red;
+}
+.box1 {
+    margin-bottom: 30px;
+}
+.context .content .contentleft .box1 .tupian {
+    display: inline-block;
+    text-align: center;
+    margin-top: 3px;
+    margin-right: 15px;
+    width: 135px;
+}
+.context .content .contentleft .box1 .tupian a {
+    font-size: 10px;
+    color: rgb(224, 214, 224);
+}
+.context .content .contentleft .box1 .detail {
+    display: inline-block;
+}
+.context .content .contentleft .box1 .detail li {
+    font-size: 14px;
+    color: rgb(134, 123, 123);
+}
+.context .content .contentleft .box1 .detail li span{
+    display: inline-block;
+    height: auto;
+}
+.context .content .contentleft .box1 .tutou .juded {
+    float: right;
+    padding-right: 20px;
+    width: 155px;
+    border-left: 1px solid;
+    border-left-color: rgb(182, 176, 176);
+    padding-left: 15px;
+}
+.context .content .contentleft .box1 .tutou .juded .fi {
+    font-size: 12px;
+    color: rgb(173, 169, 169);
+}
+.content .contentleft .box1 .tutou .juded .code .score{
+    display: inline-block;
+    padding-top: 10px;
+    font-size: 26px;
+}
+.content .contentleft .box1 .tutou .juded .code .star {
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 15px;
+}
+.content .contentleft .box1 .tutou .juded .code .star .starstar {
+    height: auto;
+}
+.content .contentleft .box1 .tutou .juded .code .star .nei {
+    font-size: 10px;
+}
+.content .contentleft .box1 .tutou .juded .se {
+    margin-top: 10px;
+    font-size: 12px;
+    color: rgb(143, 134, 134);
+}
+.content .contentleft .box1 .tutou .juded .se .power {
+    display: inline-block;
+    height: 10px;
+    background-color: rgb(231, 173, 64);
+}
+.content .contentleft .box1 .tutou .juded .se span {
+    padding-right: 3px;
+}
+.content .contentleft .box1 .middle {
+    padding-top: 20px;
+    height: 24px;
+    padding-bottom: 3px;
+}
+.content .contentleft .box1 .middle a {
+    display: inline-block;
+    text-align: center;
+    margin-right: 15px;
+    line-height: 24px;
+    font-size: 12px;
+    width: 42px;
+    height: 24px;
+    background-color: rgb(231, 173, 64);
+}
+.content .contentleft .box1 .middle span {
+    font-size: 12px;
+    height: 15px;
+}
+.content .contentleft .box1 .middle span img {
+    height: 100%;
+    height: 15px;
+    width: 15px;
+}
+.content .contentleft .box1 .food {
+    padding-top: 10px;
+}
+.content .contentleft .box1 .food li {
+    display: inline-block;
+}
+.content .contentleft .box1 .food ul {
+    display: inline-block;
+}
+.content .contentleft .box1 .food a {
+    font-size: 12px;
+    color: rgb(150, 150, 226);
+}
+.content .contentleft .box1 .food .share {
+    float: right;
+}
+.content .contentleft .box2 h2{
+    font-size: 20px;
+    color: #072;
+}
+.content .contentleft .box2 h2 span {
+    font-size: 10px;
+}
+.content .contentleft .box2 .report {
+    margin-bottom: 30px;
+}
+.content .contentleft .box3 h2{
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #072;
+}
+.content .contentleft .box3 h2 span {
+    font-size: 10px;
+}
+.content .contentleft .box3 h2 a {
+    font-size: 12px;
+}
+.content .contentleft .box3 .photos li{
+    display: inline-block;
+    margin-right: 13px;
+    width: 95px;
+}
+.content .contentleft .box3 .photos li a {
+    display: block;
+    height: 133px;
+    background-color: black;
+}
+.content .contentleft .box3 .photos li span {
+    text-align: center;
+    display: block;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.content .contentleft .box4 {
+    height: auto;
+    margin-top: 60px;
+}
+.content .contentleft .box4 h2{
+    display: inline-block;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #072;
+}
+.content .contentleft .box4 h2 span {
+    font-size: 10px;
+}
+.content .contentleft .box4 h2 a {
+    font-size: 12px;
+}
+.content .contentleft .box4 .lun {
+    float: right;
+    text-align: center;
+    line-height: 27px;
+    height: 27px;
+    width: 70px;
+    font-size: 10px;
+    background-color:rgb(218, 89, 50);
+}
+.content .contentleft .box4 .lun a {
+    color: white;
+}
+.content .contentleft .box4 .duannei .tou {
+    margin-bottom: 20px;
+}
+.content .contentleft .box4 .duannei .tou a {
+    font-size: 14px;
+}
+.content .contentleft .box4 .duannei .neirong li {
+    border-top: 1px solid;
+    border-top-color: rgb(201, 190, 190);
+    padding-top: 14px;
+    padding-bottom: 14px;
+    height: 108px;
+}
+.content .contentleft .box4 .duannei .neirong p {
+    font-size: 12px;
+}
+.content .contentleft .box5 {
+    height: auto;
+    margin-top:20px;
+}
+.content .contentleft .box5 h2{
+    display: inline-block;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #072;
+}
+.content .contentleft .box5 h2 span {
+    font-size: 10px;
+}
+.content .contentleft .box5 h2 a {
+    font-size: 12px;
+}
+.content .contentleft .box5 .lun {
+    float: right;
+    text-align: center;
+    line-height: 27px;
+    height: 27px;
+    width: 70px;
+    font-size: 10px;
+    background-color:rgb(218, 89, 50);
+}
+.content .contentleft .box5 .lun a {
+    color: white;
+}
+.content .contentleft .box5 .duannei .tou {
+    margin-bottom: 20px;
+}
+.content .contentleft .box5 .duannei .tou a {
+    font-size: 14px;
+}
+.content .contentleft .box5 .duannei .neirong li {
+    border-top: 1px solid;
+    border-top-color: rgb(201, 190, 190);
+    padding-top: 14px;
+    padding-bottom: 14px;
+    height: 108px;
+}
+.content .contentleft .box5 .duannei .neirong p {
+    font-size: 12px;
+}
+.content .contentleft .box6 {
+    height: auto;
+    margin-top: 60px;
+}
+.content .contentleft .box6 h2{
+    display: inline-block;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #072;
+}
+.content .contentleft .box6 h2 span {
+    font-size: 10px;
+}
+.content .contentleft .box6 h2 a {
+    font-size: 12px;
+}
+.content .contentleft .box6 .lun {
+    float: right;
+    text-align: center;
+    line-height: 27px;
+    height: 27px;
+    width: 70px;
+    font-size: 10px;
+    background-color:rgb(218, 89, 50);
+}
+.content .contentleft .box6 .lun a {
+    color: white;
+}
+.content .contentleft .box6 .duannei .tou {
+    margin-bottom: 20px;
+}
+.content .contentleft .box6 .duannei .tou a {
+    font-size: 14px;
+}
+.content .contentleft .box6 .duannei .neirong li {
+    border-top: 1px solid;
+    border-top-color: rgb(201, 190, 190);
+    padding-top: 14px;
+    padding-bottom: 14px;
+    height: 27px;
+}
+.content .contentleft .box6 .duannei .neirong span {
+    padding: 10px;
+    font-size: 12px;
+}
+.content .contentleft .box6 .duannei .neirong .len {
+    display: inline-block;
+    width: 390px;
+}
+.footer {
+    position: absolute;
+    padding-top: 6px;
+    font-size: 12px;
+    width: 1040px;
+    top: 1800px;
+    left: 220px;
+    border-top: 1px dashed #ddd;
+}
+.footer .righ {
+    float: right;
+}
+.footer .righ a {
+    color: rgb(127, 213, 228);
+}
+
